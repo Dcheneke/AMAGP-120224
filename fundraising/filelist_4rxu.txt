@@ -1,0 +1,13 @@
+D:\AMAGP-2 Dec 18\fundraising\button_bg1.png
+D:\AMAGP-2 Dec 18\fundraising\ebab_mbinsmenu0.gif
+D:\AMAGP-2 Dec 18\fundraising\mbico_mbinsmenu0_1.gif
+D:\AMAGP-2 Dec 18\fundraising\mbico_mbinsmenu0_2.gif
+D:\AMAGP-2 Dec 18\fundraising\mbico_mbinsmenu0_3.gif
+D:\AMAGP-2 Dec 18\fundraising\mbico_mbinsmenu0_4.gif
+D:\AMAGP-2 Dec 18\fundraising\mbico_mbinsmenu0_5.gif
+D:\AMAGP-2 Dec 18\fundraising\mbico_mbinsmenu0_6.gif
+D:\AMAGP-2 Dec 18\fundraising\ebab_mbinsmenu0_d.gif
+D:\AMAGP-2 Dec 18\fundraising\ebab_mbinsmenu0_c.gif
+D:\AMAGP-2 Dec 18\fundraising\mbjsmbinsmenu0.js
+D:\AMAGP-2 Dec 18\fundraising\mbcsmbinsmenu0.css
+D:\AMAGP-2 Dec 18\fundraising\filelist_4rxu.txt

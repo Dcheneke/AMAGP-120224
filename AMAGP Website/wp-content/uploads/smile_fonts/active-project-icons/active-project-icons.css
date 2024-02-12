@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'active-project-icons';
+    src: url('active-project-icons.eot?2bhs8i');
+    src: url('active-project-icons.eot?2bhs8i#iefix') format('embedded-opentype'),url('active-project-icons.ttf?2bhs8i') format('truetype'),url('active-project-icons.woff?2bhs8i') format('woff'),url('active-project-icons.svg?2bhs8i#active-project-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="active-project-icons-"],
+[class*=" active-project-icons-"] {
+    font-family: 'active-project-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.active-project-icons-OTHER-01:before {
+    content: "\e906";
+}
+
+.active-project-icons-WATER_ENVIRONMENT-01:before {
+    content: "\e905";
+}
+
+.active-project-icons-COMMUNICATION_ICON-01:before {
+    content: "\e900";
+}
+
+.active-project-icons-ENERGY_ICON-01:before {
+    content: "\e901";
+}
+
+.active-project-icons-GOVERNMENT-POLICY_ICON-01:before {
+    content: "\e902";
+}
+
+.active-project-icons-STATE_CAPTURE_ICON-01:before {
+    content: "\e903";
+}
+
+.active-project-icons-TRANSPORT_ICON-01:before {
+    content: "\e904";
+}

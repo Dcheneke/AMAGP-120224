@@ -1,0 +1,11 @@
+C:\Users\DCH-Zen\Desktop\AMAGP-03Aug21\httpdocs\wrapper_bg1.png
+C:\Users\DCH-Zen\Desktop\AMAGP-03Aug21\httpdocs\wrapper_simple_bg1.png
+C:\Users\DCH-Zen\Desktop\AMAGP-03Aug21\httpdocs\ebab_mb1uu0.png
+C:\Users\DCH-Zen\Desktop\AMAGP-03Aug21\httpdocs\mbico_mb1uu0_1.png
+C:\Users\DCH-Zen\Desktop\AMAGP-03Aug21\httpdocs\mbico_mb1uu0_2.png
+C:\Users\DCH-Zen\Desktop\AMAGP-03Aug21\httpdocs\ebab_mb1uu0_d.png
+C:\Users\DCH-Zen\Desktop\AMAGP-03Aug21\httpdocs\ebab_mb1uu0_d2.png
+C:\Users\DCH-Zen\Desktop\AMAGP-03Aug21\httpdocs\ebab_mb1uu0_c.png
+C:\Users\DCH-Zen\Desktop\AMAGP-03Aug21\httpdocs\mbjsmb1uu0.js
+C:\Users\DCH-Zen\Desktop\AMAGP-03Aug21\httpdocs\mbcsmb1uu0.css
+C:\Users\DCH-Zen\Desktop\AMAGP-03Aug21\httpdocs\filelist_1uu0.txt

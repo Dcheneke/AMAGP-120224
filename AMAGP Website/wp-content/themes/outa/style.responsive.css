@@ -1,0 +1,973 @@
+.responsive body {
+    min-width: 240px;
+}
+
+.responsive img {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.responsive .ta-content-layout img,
+.responsive .ta-content-layout video {
+    max-width: 100%;
+    height: auto !important;
+}
+
+.responsive.responsive-phone .ta-content-layout img {
+    margin: 1%;
+}
+
+.responsive.responsive-phone .ta-collage,
+.responsive.responsive-tablet .ta-collage {
+    margin: 0 !important;
+}
+
+.responsive .ta-content-layout .ta-sidebar0,
+.responsive .ta-content-layout .ta-sidebar1,
+.responsive .ta-content-layout .ta-sidebar2 {
+    width: auto !important;
+}
+
+.responsive .ta-content-layout,
+.responsive .ta-content-layout-row,
+.responsive .ta-layout-cell {
+    display: block;
+}
+
+.responsive .ta-content-layout,
+.responsive .ta-content-layout-row {
+    padding: 0;
+}
+
+.responsive .image-caption-wrapper {
+    width: auto;
+}
+
+.responsive.responsive-tablet .ta-vmenublock,
+.responsive.responsive-tablet .ta-block {
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 48%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.responsive .ta-responsive-embed {
+    height: 0;
+    padding-bottom: 56.25%;
+
+    /* 16:9 */
+    position: relative;
+}
+
+.responsive .ta-responsive-embed iframe,
+.responsive .ta-responsive-embed object,
+.responsive .ta-responsive-embed embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/* dynamic width nav */
+.responsive nav.ta-nav,
+.responsive .ta-nav-inner {
+    width: auto !important;
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    margin-top: 0px !important;
+    margin-bottom: 0;
+    min-width: 0;
+    text-align: right !important;
+}
+
+.responsive nav.ta-nav {
+    position: absolute;
+    margin-top: 0 !important;
+    min-width: 1%;
+    min-height: 50px;
+}
+
+.responsive .ta-nav {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* full width hmenu, instead of inline-block */
+.responsive .ta-nav ul.ta-hmenu {
+    float: none;
+    text-align: center;
+    display: none;
+}
+
+/* elements on different lines */
+.responsive .ta-nav ul.ta-hmenu li,
+.responsive .ta-hmenu-extra1,
+.responsive .ta-hmenu-extra2 {
+    float: none;
+}
+
+/* horizontal margins */
+.responsive .ta-nav ul.ta-hmenu>li:first-child,
+.responsive .ta-nav ul.ta-hmenu>li:last-child,
+.responsive .ta-nav ul.ta-hmenu>li {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* separator */
+.responsive .ta-nav ul.ta-hmenu>li:before {
+    display: none;
+}
+
+/* vertical distance between items */
+.responsive .ta-nav ul.ta-hmenu a {
+    margin-top: 1px !important;
+    margin-bottom: 1px !important;
+    height: auto;
+    white-space: normal;
+}
+
+.responsive .ta-nav ul.ta-hmenu>li:first-child>a {
+    margin-top: 0 !important;
+}
+
+.responsive .ta-nav ul.ta-hmenu>li:last-child>a {
+    margin-bottom: 0 !important;
+}
+
+/* fixes for extended menu */
+.responsive .ta-nav .ext,
+.responsive .ta-nav ul.ta-hmenu>li>ul,
+.responsive .ta-nav ul.ta-hmenu>li>ul>li,
+.responsive .ta-nav ul.ta-hmenu>li>ul>li a {
+    width: auto !important;
+}
+
+/* submenu position on hover */
+.responsive .ta-nav ul.ta-hmenu ul {
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+    display: none !important;
+    position: relative !important;
+    visibility: visible !important;
+}
+
+.responsive .ta-nav ul.ta-hmenu li>ul {
+    display: block !important;
+    visibility: visible !important;
+}
+
+.responsive .ta-nav ul.ta-hmenu ul li.active>a {
+    font-weight: bold;
+}
+
+.ta-nav .ta-menu-btn {
+    border: 1px solid #404040;
+    border-radius: 3px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+    display: none;
+    -svg-background: linear-gradient(to bottom, #707070 0, #000 100%);
+    background: -ms-linear-gradient(top, #707070 0, #000 100%);
+    background: -moz-linear-gradient(top, #707070 0, #000 100%);
+    background: -o-linear-gradient(top, #707070 0, #000 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #707070), color-stop(1, #000));
+    background: -webkit-linear-gradient(top, #707070 0, #000 100%);
+    background: linear-gradient(to bottom, #707070 0, #000 100%);
+    margin: 3px;
+    outline: none;
+    padding: 5px;
+    position: relative;
+    vertical-align: bottom;
+    width: 20px;
+}
+
+.ta-nav .ta-menu-btn span {
+    background: #E0E0E0;
+    border-radius: 2px;
+    display: block;
+    height: 3px;
+    margin: 3px 1px;
+    position: relative;
+    -moz-transition: background .2s;
+    -o-transition: background .2s;
+    -webkit-transition: background .2s;
+    transition: background .2s;
+}
+
+.ta-nav .ta-menu-btn:hover span {
+    background: #f3f3f3;
+}
+
+.responsive .ta-nav .ta-menu-btn {
+    display: inline-block;
+}
+
+.responsive .ta-nav .ta-hmenu.visible {
+    display: block;
+}
+
+.responsive .ta-nav ul.ta-hmenu>li>ul>li:first-child:after {
+    display: none;
+}
+
+.responsive .ta-nav ul.ta-hmenu ul a {
+    padding-left: 4% !important;
+}
+
+.responsive .ta-nav ul.ta-hmenu ul ul a {
+    padding-left: 6% !important;
+}
+
+.responsive .ta-nav ul.ta-hmenu ul ul ul a {
+    padding-left: 8% !important;
+}
+
+.responsive .ta-nav ul.ta-hmenu ul ul ul ul a {
+    padding-left: 10% !important;
+}
+
+.responsive .ta-nav ul.ta-hmenu ul ul ul ul ul a {
+    padding-left: 12% !important;
+}
+
+.responsive .ta-nav ul.ta-hmenu>li>ul {
+    padding: 5px;
+}
+
+.responsive .ta-nav ul.ta-hmenu>li>ul:before {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.responsive .ta-header {
+    width: auto !important;
+    max-width: none !important;
+    min-height: 100px !important;
+    min-width: 0 !important;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.default-responsive .ta-header {
+    height: auto;
+}
+
+.default-responsive .ta-header * {
+    position: relative;
+    text-align: center;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -o-transform: none !important;
+    -ms-transform: none !important;
+    transform: none !important;
+}
+
+.default-responsive .ta-header .ta-headline,
+.default-responsive .ta-header .ta-slogan {
+    display: block !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin: 2% !important;
+    text-align: center !important;
+}
+
+.default-responsive .ta-header .ta-headline a,
+.default-responsive .ta-header .ta-slogan {
+    white-space: normal !important;
+}
+
+.default-responsive .ta-header .ta-logo {
+    margin-left: 0px;
+    margin-top: 20px;
+    position: fixed;
+
+    /*
+   margin: auto !important;
+   left: auto;
+   top: auto !important;
+   width: auto;
+   height: auto;*/
+}
+
+.responsive .ta-header .ta-slidenavigator {
+    position: absolute;
+}
+
+.default-responsive .ta-header .ta-positioncontrol {
+    display: block !important;
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    margin: 2% auto !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+.responsive .ta-header #ta-flash-area {
+    display: none;
+}
+
+/* Search and other elements in header element directly */
+.default-responsive .ta-header>.ta-textblock {
+    position: relative !important;
+    display: block !important;
+    margin: 1% auto !important;
+    width: 75% !important;
+    top: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+}
+
+.default-responsive .ta-header .ta-textblock {
+    position: relative !important;
+    display: block !important;
+    margin: auto !important;
+    left: 0 !important;
+    right: 0 !important;
+    top: auto !important;
+    height: auto !important;
+    width: auto;
+    background-image: none;
+}
+
+/* '.ta-header *' used noram align, but for '.ta-textblock *' we must force align because of preview */
+.responsive .ta-header .ta-textblock * {
+    text-align: center !important;
+}
+
+.default-responsive .ta-header .ta-shapes > .ta-textblock,
+.default-responsive .ta-header .ta-slide-item > .ta-textblock {
+    display: none !important;
+}
+
+.default-responsive .ta-header .ta-shapes > .ta-textblock * {
+    text-align: center !important;
+    width: auto !important;
+    height: auto !important;
+    display: block;
+}
+
+.default-responsive .ta-header .ta-slider .ta-textblock * {
+    text-align: center !important;
+    width: auto !important;
+    height: auto !important;
+    display: block;
+}
+
+/* For icons like facebook, rss, etc. */
+.responsive .ta-header>.ta-textblock>div {
+    width: 100%;
+}
+
+.responsive .ta-sheet {
+    width: auto !important;
+    min-width: 240px !important;
+    max-width: none !important;
+    margin-right: 1% !important;
+    margin-left: 1% !important;
+}
+
+#ta-resp {
+    display: none;
+}
+
+@media all and (max-width: 1180px)
+{
+    .ta-postcontent h1,
+    .ta-blockcontent h1 {
+        font-size: 42px;
+    }
+
+    h1.huge {
+        font-size: 70px;
+    }
+
+    .ta-postcontent h2,
+    .ta-blockcontent h2 {
+        font-size: 36px;
+    }
+
+    h2.intro {
+        font-size: 24px;
+    }
+
+    #head-block {
+        margin-top: 50px;
+        margin-bottom: 150px;
+        height: auto;
+    }
+
+    #hblock1 h1,
+    #hblock2 h1 {
+        margin-bottom: 20px;
+        height: auto;
+    }
+
+    #footer-left-1 {
+        width: 35%;
+    }
+
+    #footer-right-4 {
+        width: 20%;
+    }
+
+    #hblock1 div div div br {
+        display: none;
+    }
+
+    #hblock2 div div div br {
+        font-size: 9px !important;
+    }
+}
+
+@media all and (max-width: 999px)
+{
+    /*.ta-logo {
+		float:left;
+	}*/
+    header {
+        height: auto !important;
+        min-height: 400px !important;
+        background-size: cover !important;
+    }
+
+    .page-child header .ta-header {
+        min-height: 280px !important;
+        height: 280px !important;
+    }
+
+    header .ta-logo {
+        margin-top: 32px;
+    }
+
+    #head-block {
+        margin-top: 50px;
+        margin-bottom: 150px;
+        height: auto;
+    }
+
+    #ta-resp,
+    #ta-resp-t {
+        display: block;
+    }
+
+    #ta-resp-m {
+        display: none;
+    }
+
+    a.button.grey-bg.darker.tleft { /* on home */
+        min-width: 65% !important;
+    }
+}
+
+@media all and (max-width: 768px)
+{
+    header {
+        height: auto;
+    }
+
+    .page-child header .ta-header {
+        min-height: 280px !important;
+        height: 280px !important;
+    }
+
+    a.but.dark-bg.white {
+        height: auto !important;
+    }
+
+    .indep a.button {
+        display: block !important;
+        margin-top: 10px;
+        height: auto !important;
+    }
+
+    .hcol-right p:last-child {
+        margin-top: 15px;
+    }
+
+    #head-block {
+        margin-top: -50px !important;
+        margin-bottom: 50px;
+        height: auto;
+    }
+
+    .home-grey-block,
+    .vc_col-sm-6,
+    .borderme-left,
+    .borderme-center,
+    .borderme-right,
+    .borderme2-left,
+    .borderme2-center,
+    .borderme2-right {
+        display: block;
+        width: 90% !important;
+        clear: both;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 20px !important;
+    }
+
+    .grey-block a.but.red-bg {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    a.but {
+        margin: 0px;
+        width: 70% !important;
+        height: auto !important;
+    }
+
+    #footer-left-1 {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+
+    #footer-right-1,
+    #footer-right-2,
+    #footer-right-3,
+    #footer-right-4 {
+        width: 46% !important;
+    }
+
+    #footer-right-1,
+    #footer-right-3 {
+        margin-left: 20px;
+    }
+
+    #nav_menu-7 {
+        width: 46% !important;
+    }
+
+    .vc_align_right.vc_custom_1468497817910 {
+        text-align: center;
+        align-items: center;
+    }
+
+    .ta-hmenu-extra1 {
+    }
+
+    .ta-hmenu-extra1 .widget_search {
+    }
+}
+
+@media all and (max-width: 480px)
+{
+    #ta-resp,
+    #ta-resp-m {
+        display: block;
+    }
+
+    #ta-resp-t {
+        display: none;
+    }
+
+    #footer-left-1 {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+
+    #footer-right-1,
+    #footer-right-2,
+    #footer-right-3,
+    #footer-right-4 {
+        width: 45% !important;
+    }
+
+    #footer-right-1,
+    #footer-right-3 {
+        margin-left: 20px;
+    }
+
+    .home-grey-block,
+    .vc_col-sm-6,
+    .borderme-left,
+    .borderme-center,
+    .borderme-right,
+    .borderme2-left,
+    .borderme2-center,
+    .borderme2-right {
+        display: block;
+        width: 90% !important;
+        clear: both;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 20px !important;
+    }
+
+    .col-50 {
+        width: 100%;
+    }
+
+    .ta-widget.widget.widget_nav_menu {
+        width: 50% !important;
+        margin-right: 10px;
+    }
+
+    .ta-widget-title {
+        width: 150px !important;
+    }
+
+    #text-7 {
+        display: none !important;
+    }
+}
+
+#ta-resp-desktop {
+    display: none;
+}
+
+#ta-resp-tablet-landscape {
+    display: none;
+}
+
+#ta-resp-tablet-portrait {
+    display: none;
+}
+
+#ta-resp-phone-landscape {
+    display: none;
+}
+
+#ta-resp-phone-portrait {
+    display: none;
+}
+
+@media (min-width: 1200px)
+{
+    #ta-resp-desktop {
+        display: block;
+    }
+
+    body,
+    .desktop  .ta-nav-inner,
+    .ta-hmenu-extra1 .inner-extra,
+    .ta-hmenu-extra2 .inner-extra,
+    .ta-header-inner,
+    .ta-sheet,
+    .ta-footer-inner,
+    #head-block {
+        min-width: 1200px;
+    }
+
+    .ta-header {
+        background-position: center bottom;
+        background-size: cover !important;
+    }
+}
+
+@media (min-width: 980px) and (max-width: 1199px)
+{
+    #ta-resp-tablet-landscape {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px)
+{
+    #ta-resp-tablet-portrait {
+        display: block;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px)
+{
+    #ta-resp-phone-landscape {
+        display: block;
+    }
+}
+
+@media (max-width: 479px)
+{
+    #ta-resp-phone-portrait {
+        display: block;
+    }
+}
+
+.responsive .ta-content-layout,
+.responsive .ta-content-layout-row,
+.responsive .ta-layout-cell {
+    display: block;
+}
+
+.responsive .ta-layout-cell {
+    width: auto !important;
+    height: auto !important;
+}
+
+.responsive .ta-content-layout:after,
+.responsive .ta-content-layout-row:after,
+.responsive .ta-layout-cell:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.responsive .responsive-tablet-layout-cell,
+.responsive.responsive-tablet .ta-footer .ta-content-layout .ta-layout-cell {
+    margin: 1%;
+    width: 98% !important;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.responsive .responsive-layout-row-2 .responsive-tablet-layout-cell,
+.responsive.responsive-tablet .ta-footer .ta-content-layout .responsive-layout-row-2 .ta-layout-cell {
+    width: 48% !important;
+}
+
+.responsive .responsive-layout-row-3 .responsive-tablet-layout-cell,
+.responsive.responsive-tablet .ta-footer .ta-content-layout .responsive-layout-row-3 .ta-layout-cell {
+    width: 31% !important;
+}
+
+.responsive .ta-post {
+    border-radius: 0;
+}
+
+.responsive .ta-footer-inner {
+    width: auto;
+    padding: 2% !important;
+}
+
+#search-2 {
+    display: block;
+}
+
+#search-3 {
+    display: none;
+}
+
+@media all and (max-width: 1200px) {
+    .ta-hmenu>li>a,
+    .ta-hmenu>li>a:link,
+    .ta-hmenu>li>a:visited,
+    .ta-hmenu>li>a.active,
+    .ta-hmenu>li>a:hover {
+        font-size: 14px !important;
+    }
+
+    #hblock1 .hcol-left {
+        width: 30%;
+    }
+
+    #hblock1 .hcol-right {
+        width: 60%;
+    }
+
+    .ta-hmenu-extra2 .inner-extra .widget_nav_menu div {
+        margin-right: -15px !important;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    #head-block {
+        width: 90% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    #hblock1 {
+        width: 52%;
+        text-align: left !important;
+        margin-left: 0px !important;
+    }
+
+    #hblock2 {
+        width: 25%;
+        text-align: left !important;
+    }
+
+    #hblock1 h5 {
+        font-size: 16px !important;
+        text-align: left !important;
+    }
+
+    #hblock1 .hcol-left {
+        width: 28%;
+    }
+
+    #hblock1 .hcol-right {
+        width: 60%;
+        font-size: 18px;
+        text-align: left !important;
+        margin-left: -10px;
+        padding-left: 10px;
+    }
+
+    #hblock1 p,
+    #hblock2 p {
+        text-align: left !important;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #head-block {
+        width: 90% !important;
+    }
+
+    #hblock1,
+    #hblock2 {
+        height: auto;
+        width: 45%;
+    }
+
+    #hblock1 {
+        margin-top: 45px !important;
+        width: 90%;
+        height: auto;
+        text-align: left !important;
+        margin-bottom: 20px !important;
+    }
+
+    #hblock2 {
+        width: 90%;
+        height: auto;
+        text-align: left !important;
+        margin-bottom: 20px !important;
+        margin-left: 0px;
+    }
+
+    #hblock1 h5 {
+        font-size: 16px !important;
+        text-align: left !important;
+    }
+
+    #hblock1 .hcol-left {
+        width: 28%;
+    }
+
+    #hblock1 .hcol-right {
+        width: 60%;
+        font-size: 18px;
+        text-align: left !important;
+        margin-left: -10px;
+        padding-left: 10px;
+    }
+
+    #hblock1 p,
+    #hblock2 p {
+        text-align: left !important;
+    }
+
+    .vc_basic_grid.page_lists {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .vc_basic_grid.page_lists .vc_grid {
+        text-align: center !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+
+@media all and (max-width: 660px) {
+    #head-block {
+        width: 90% !important;
+    }
+
+    #hblock1 {
+        margin-top: 45px !important;
+        width: 90% !important;
+        height: auto;
+        text-align: left !important;
+        margin-bottom: 20px !important;
+    }
+
+    #hblock2 {
+        width: 90% !important;
+        height: auto;
+        text-align: left !important;
+        margin-bottom: 20px !important;
+    }
+
+    #hblock1 h5 {
+        text-align: left !important;
+    }
+
+    #hblock1 .hcol-left {
+        width: 28%;
+    }
+
+    #hblock1 .hcol-right {
+        width: 60%;
+        font-size: 16px;
+        text-align: left !important;
+        margin-left: -10px;
+        padding-left: 10px;
+    }
+
+    #hblock1 p,
+    #hblock2 p {
+        text-align: left !important;
+    }
+
+    #hblock2 p {
+        margin-top: 10px;
+    }
+
+    .but.red-bg.white.multiline {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .indep a.button {
+        min-width: 180px !important;
+        width: 180px !important;
+    }
+
+    .author .ta-post.ta-article.format-standard.hentry {
+        width: 95%;
+    }
+}
+
+@media all and (max-width: 420px) {
+    #hblock1 {
+        margin-top: 45px !important;
+        width: 86% !important;
+    }
+
+    #hblock2 {
+        width: 86% !important;
+    }
+
+    .indep a.button {
+        min-width: 160px !important;
+        width: 160px !important;
+    }
+
+    #search-2 {
+        display: none;
+    }
+
+    #search-3 {
+        display: block;
+    }
+}
+
+.page-child header .ta-header,
+#head-block {
+    height: 280px !important;
+    min-height: 280px !important;
+    max-height: 280px !important;
+}
